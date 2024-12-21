@@ -16,12 +16,12 @@ Simulation procedure by Danh Nguyen, UW-Madison (https://scholar.google.com/cita
 CalculateVis_Fitting.ipynb
 
 
-How to check density of simulation box after NPT run in GROMACS, for example
+How to check density of simulation box after NPT run in GROMACS, for example:
 
 gmx energy -f npt_300.edr -s npt_300.tpr -o den_300.xvg
 
-How to extract the viscosity at A = 0.015 nm/ps2 after NEMD run in GROMACS, for example
+How to extract the viscosity at A = 0.015 nm/ps2 after NEMD run in GROMACS, for example:
 
 gmx energy -f NEMD_300_0.015.edr -s NEMD_300_0.015.tpr -o Vis_300_0.015.xvg
 
-==> Notice that the result will be "1/viscosity"
+=> Notice that the result will be "1/viscosity"

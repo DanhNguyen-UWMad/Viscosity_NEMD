@@ -1,7 +1,7 @@
 # Viscosity_NEMD
 This GitHub demonstrates how to perform an NEMD simulation to calculate the viscosity of materials with GROMACS.
 
-Simulation procedure by Danh Nguyen, UW-Madison.
+Simulation procedure by Danh Nguyen, UW-Madison (https://scholar.google.com/citations?user=1XY-fyQAAAAJ&hl=en)
 
 1. Generate mol2 file from pdb file, using Avogadro or Material Studio.
 2. Upload your mol2 file to https://app.cgenff.com/homepage to generate input files for GROMACS.
